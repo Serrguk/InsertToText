@@ -1,11 +1,10 @@
 public class Main {
     public static void main(String[] args) {
         //Нужен вывод в формате: (1) Это (2) просто (3) текст, (4) для (5) примера (6) работы (7) программы
-        String text = "Это просто текст, для примера работы программы, а не какая-то хуита";
+        String text = "Это просто текст, для примера работы программы, а не какая-то вам тут того на этого";
         System.out.println(sequentialWordsNumbers(text));
     }
-    //charAt(int index) - возвращает символ по указанному индексу
-    //indexOf(char symbol) - возвращает индекс по указанному символу
+
     public static String sequentialWordsNumbers(String text) {
         String endText = text;
         int indexOfSpace;
